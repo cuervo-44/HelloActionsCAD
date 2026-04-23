@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HelloCAD
-        run: echo: "Hola mundo, desde CAD
+        run: echo "Hola mundo, desde CAD
