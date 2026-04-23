@@ -1,10 +1,1 @@
-name: HelloCAD
 
-on: [push]
-
-jobs:
-  saludo:
-    runs-on: ubuntu-latest
-    steps:
-      - name: HelloCAD
-        run: echo "Hola mundo, desde CAD
