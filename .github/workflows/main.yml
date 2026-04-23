@@ -1,1 +1,15 @@
+name: HelloCAD
 
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Primer Escenario
+        run: echo "Hola mundo desde CAD"
+
+      - name: Segundo Escenario
+        run: |
+            echo "Step 2. Segundo saludo"
+            echo "Step 3. Tercer saludo"
